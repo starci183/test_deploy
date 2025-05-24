@@ -7,7 +7,7 @@ export class AppController {
 
   @Get()
   getHello(): string {
-    return this.appService.getHello();
+    return "https://www.facebook.com/starci183";
   }
 
   @Get("/greet")
